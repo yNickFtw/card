@@ -1,0 +1,125 @@
+body {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+.card {
+    width: 340px;
+
+    background-color: #F3F3F3;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.card-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items {
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.card-items-down {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#calendar-icon {
+    margin-right: 1px;
+}
+
+.text {
+    margin-left: 15px;
+}
+
+.father-container {
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container,
+.container-2,
+.container-3 {
+    margin: 10px;
+    width: 105px;
+    height: 63px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #D9D9D9;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.container-items {
+    display: flex;
+    flex-direction: column;
+    background-color: #D9D9D9;
+}
+
+.container-items-2 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.icon-text {
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+p {
+    color: #673AB7;
+    font-family: sans-serif;
+}
+
+h4 {
+    text-align: center;
+    text-decoration-style: none;
+}
+
+h2 {
+    color: #673AB7;
+}
+
+#pdf-icon {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -18px;
+    margin-left: 15px;
+    align-items: center;
+}
